@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.movie-card {
+    width: 700px;
+    height: 500px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px 1px grey;
+    display: flex;
+    overflow: hidden;
+}
+
+.img-container {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-infos {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.movie-infos h1, .movie-infos h2, .movie-infos h3 {
+    margin-bottom: 15px;
+}
+
+.random-btn {
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4 100%);
+    color: white;
+    margin-top: 30px;
+    padding: 15px 45px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 1px grey;
+    border: none;
+    cursor: pointer;
+}
